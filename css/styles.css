@@ -878,6 +878,8 @@ img {
   margin-bottom: 16px;
 } */
 
+/* region popup form  */
+
 .modal-ovrlay {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
@@ -1127,16 +1129,96 @@ input:checked + .agree-text > .checkbox-spot {
   fill: #4d5ae5;
 }
 
-/* .input-sect {
-  position: relative;
+/* endregion popup form  */
+
+.header-mob-menu-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
-.social-icon-input {
+.header-mob-menu {
   position: absolute;
-  padding: 3px 0px;
-  width: 18px;
-  height: 24px;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 24px 24px 40px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-mob-menu .popup-close {
+  background-color: transparent;
+}
+
+.header-nav-mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.page-nav-mob {
+  list-style-type: none;
+  padding: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 40px; */
+
+  /* margin-bottom: 48px; */
+}
+
+.page-nav-mob .link-mob {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.page-nav-mob .active-link-mob {
+  color: #4d5ae5;
+}
+
+.contact-list-mob {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  gap: 24px;
+}
+
+.contact-list-mob .contact-mob {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.social-icons-mob-menu {
+  position: absolute;
+  bottom: 40px;
   left: 16px;
-  top: 8px;
-  bottom: 8px;
-} */
+  right: 24px;
+  list-style-type: none;
+  /* width: 280px; */
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.social-icon-mob-menu {
+  width: 40px;
+  height: 40px;
+}
