@@ -1049,7 +1049,7 @@ img {
 }
 
 .footer-form-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -1119,6 +1119,7 @@ img {
 
   .footer-form-input {
     margin-bottom: 0;
+    width: 264px;
   }
 
   .footer-email-text {
@@ -1191,6 +1192,7 @@ img {
 
   .footer-form-input {
     margin-bottom: 0;
+    width: 264px;
   }
 
   .footer-email-text {
